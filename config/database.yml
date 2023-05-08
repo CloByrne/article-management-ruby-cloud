@@ -1,0 +1,12 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8mb4
+  collation: utf8mb4_unicode_ci
+  database: database-1
+  host: database-1.cfpttrlmemij.eu-west-1.rds.amazonaws.com
+  username: admin
+  password: CADdatabase
+  port: 3306
+
+development:
+  <<: *default
